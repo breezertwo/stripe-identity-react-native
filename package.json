@@ -1,5 +1,5 @@
 {
-  "name": "@stripe/stripe-identity-react-native",
+  "name": "@breezertwo/stripe-identity-react-native",
   "version": "0.3.8",
   "description": "Stripe identity react native SDK library",
   "main": "lib/commonjs/index",
@@ -38,13 +38,8 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/stripe/stripe-identity-react-native",
-  "author": "Mateusz Skwierczyński <mateusz.skwierczynski@callstack.com> (https://github.com/mskwierczynski)",
+  "repository": "https://github.com/breezertwo/stripe-identity-react-native",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/stripe/stripe-identity-react-native/issues"
-  },
-  "homepage": "https://github.com/stripe/stripe-identity-react-native#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
