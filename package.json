@@ -40,7 +40,7 @@
   ],
   "repository": "https://github.com/breezertwo/stripe-identity-react-native",
   "author": "Mateusz Skwierczyński <mateusz.skwierczynski@callstack.com> (https://github.com/mskwierczynski)",
-  "homepage": "https://github.com/stripe/stripe-identity-react-native#readme",
+  "homepage": "https://github.com/breezertwo/stripe-identity-react-native",
   "license": "MIT",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
