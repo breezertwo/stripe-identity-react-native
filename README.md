@@ -1,3 +1,12 @@
+Fork of the orignal package to keep compability with current versions of [stripe-react-native](https://github.com/stripe/stripe-react-native) due to build breaking native SDK version missmatches of the orignal.
+_Otherwise no new features/support._
+
+Install: 
+
+```
+npm i @breezertwo/stripe-identity-react-native
+```
+
 # Stripe Identity React Native SDK
 
 Stripe Identity enables online businesses to securely verify the identities of users around the world. Robust identity verification helps prevent fraud, simplify compliance, and increase trust. Stripe will use biometric technology (on images of you and your IDs) and other data sources. With the Stripe Identity React Native SDK, you can confidently verify the authenticity of ID documents from over 33 countries in your React Native application.
