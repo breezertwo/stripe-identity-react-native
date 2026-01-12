@@ -2,7 +2,7 @@ package com.stripeidentityreactnative
 
 import android.app.Activity
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
+import androidx.fragment.app.FragmentActivity
 import com.facebook.react.bridge.*
 
 class StripeIdentityReactNativeModule(reactContext: ReactApplicationContext) : ReactContextBaseJavaModule(reactContext) {
@@ -30,7 +30,8 @@ class StripeIdentityReactNativeModule(reactContext: ReactApplicationContext) : R
   @ReactMethod
   fun initIdentityVerificationSheet(options: ReadableMap, promise: Promise) {
     initialized = true
-    val activity = reactApplicationContext.currentActivity as AppCompatActivity? ?: return
+
+    val activity = reactApplicationContext.currentActivity as FragmentActivity? ?: return
 
     // If a fragment was already initialized, we want to remove it first
     stripeIdentityVerificationSheetFragment?.let {
